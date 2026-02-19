@@ -44,6 +44,35 @@
 }
 </script>
 
+ <script>
+/* ===== GLOBAL BUTTON STYLE ===== */
+
+.nav-btn,
+.hero-btn,
+.split-card a {
+    display:inline-block;
+    padding:14px 32px;
+    background:#0b1b2b;
+    color:white;
+    font-weight:600;
+    border-radius:8px;
+    text-decoration:none;
+    font-family:'Poppins', sans-serif;
+    letter-spacing:0.3px;
+    transition:all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.nav-btn:hover,
+.hero-btn:hover,
+.split-card a:hover {
+    background:#162d45;
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+ </script>
+
 </head>
 <body>
 
@@ -442,6 +471,7 @@ document.querySelectorAll(".faq-question").forEach(btn=>{
 
 </body>
 </html>
+
 
 
 
